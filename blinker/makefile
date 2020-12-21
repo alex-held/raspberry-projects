@@ -1,12 +1,11 @@
-build:	
-	gcc blinker.c -o blink -lwiringPi
-    
-clean:
-	rm blink
-
-run: build
+run-c:
+	gcc ./c/blinker.c -o blink -lwiringPi
 	./blink
 
+run-python:
+	python3 ./python/blinker.py
+
+    
     
 
 

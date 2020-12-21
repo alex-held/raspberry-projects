@@ -1,14 +1,14 @@
-## Build
+# Blinker
+
+When the program gets executed it toggles an LED on and off.
+![Schematics](./schematics.png)
+
+## C
 ``` sh
-make build
+make run-c
 ``` 
 
-## Clean
+## Python3
 ``` sh
-make clean
-``` 
-
-## Run
-``` sh
-make run
-``` 
+make run-python
+```
